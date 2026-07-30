@@ -1,23 +1,69 @@
 aid: link-a-media
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/link-a-media.png
 name: Link A Media
-description: Link A Media is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Link_A_Media Devices (LAMD) was a privately-held fabless semiconductor company founded in March 2004
+  by storage industry veterans and headquartered in Santa Clara, California. It built signal-processing
+  and data-recovery technology — read channels, error correction and System-on-Chip blocks — that storage
+  OEMs combined with their own proprietary logic to build custom controller SoCs for hard disk drives and
+  NAND flash. Its product lines were MagLINK (magnetic/HDD) and FlashLINK (NAND/SSD), sold as IP and silicon
+  to drive manufacturers rather than as a developer-facing service. The company targeted higher areal
+  density, lower cost per gigabyte, improved drive robustness and higher manufacturing yields. LAMD is no
+  longer an operating independent company: its website was live through January 2013 and the domain is
+  today a parked for-sale listing. It never published a public API, developer portal, or SDK, so there is
+  no API surface for the API Evangelist enrichment pipeline to capture.
 url: https://raw.githubusercontent.com/api-evangelist/link-a-media/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-evidence: >-
+  linkamedia.com served the company site continuously in the Internet Archive through 2013-01-14, then has
+  no captures until 2024-08-08 (301) and today resolves to an abovedomains.com parked for-sale page
+  (HTTP 200, probed 2026-07-19). Related domains lamd.com (afternic lander) and link-a-media.com
+  (sedoparking) are likewise parked. No live company, developer, or API surface exists.
+x-enrichment-verdict: >-
+  Enrichment attempted 2026-07-19 and correctly produced no API artifacts. This company predates and sits
+  outside the API economy — it sold storage controller IP and silicon to OEMs. Do not re-run the enrichment
+  pipeline against this slug; there is nothing to find. Retain as a historical portfolio-graph node only.
+x-identity-source: >-
+  http://web.archive.org/web/20120615081940/http://www.linkamedia.com/about.html (first-party About Us page,
+  captured 2012-06-15)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Semiconductors
+- Storage
+- Solid State Drives
+- Hard Disk Drives
+- NAND Flash
+- System on Chip
+- Signal Processing
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
