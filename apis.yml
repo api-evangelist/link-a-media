@@ -43,7 +43,7 @@ x-enrichment-verdict: >-
 x-identity-source: >-
   http://web.archive.org/web/20120615081940/http://www.linkamedia.com/about.html (first-party About Us page,
   captured 2012-06-15)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
