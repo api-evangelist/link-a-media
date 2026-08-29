@@ -35,6 +35,9 @@ description: >-
   today a parked for-sale listing. It never published a public API, developer portal, or SDK, so there is
   no API surface for the API Evangelist enrichment pipeline to capture.
 url: https://raw.githubusercontent.com/api-evangelist/link-a-media/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It never published a public API, developer portal, or SDK, so there is no API surface for the API Evangelist enrichment pipeline to capture."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
