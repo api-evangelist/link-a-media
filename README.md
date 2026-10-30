@@ -64,26 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Link_A_Media Devices (LAMD) was a privately-held fabless semiconductor company founded in March 2004 by
-storage industry veterans and headquartered in Santa Clara, California. It built signal-processing and
-data-recovery technology — read channels, error correction and System-on-Chip blocks — that storage OEMs
-combined with their own proprietary logic to build custom controller SoCs for hard disk drives and NAND
-flash. Its product lines were **MagLINK** (magnetic/HDD) and **FlashLINK** (NAND/SSD).
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: lightspeed-venture-partners
+Link_A_Media Devices (LAMD) was a privately-held fabless semiconductor company founded in March 2004 by storage industry veterans and headquartered in Santa Clara, California. It built signal-processing and data-recovery technology — read channels, error correction and System-on-Chip blocks — that storage OEMs combined with their own proprietary logic to build custom controller SoCs for hard disk drives and NAND flash. Its product lines were MagLINK (magnetic/HDD) and FlashLINK (NAND/SSD), sold as IP and silicon to drive manufacturers rather than as a developer-facing service. The company targeted higher areal density, lower cost per gigabyte, improved drive robustness and higher manufacturing yields. LAMD is no longer an operating independent company: its website was live through January 2013 and the domain is today a parked for-sale listing. It never published a public API, developer portal, or SDK, so there is no API surface for the API Evangelist enrichment pipeline to capture.
 
-## Status: defunct — no API surface
+**Areas:** Company · Semiconductors · Storage · Solid State Drives · Hard Disk Drives · NAND Flash · System on Chip · Signal Processing · Defunct
 
-This repo is a historical portfolio-graph node, not an API provider profile.
+## Link A Media on APIs.io (historical record)
 
-- LAMD sold IP and silicon to drive manufacturers. It never published a public API, developer portal,
-  documentation, or SDK.
-- `linkamedia.com` was archived continuously through **2013-01-14**, then has no captures until 2024,
-  and today serves an `abovedomains.com` parked for-sale page (HTTP 200, probed 2026-07-19).
-- `lamd.com` (afternic lander) and `link-a-media.com` (sedoparking) are likewise parked.
+Everything profiled for Link A Media is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/link-a-media/](https://apis.io/providers/link-a-media/)** — or go straight to one of the APIs or properties below.
 
-The enrichment pipeline ran on 2026-07-19 and correctly produced **no** API artifacts — there is nothing
-to find. Company identity above is sourced from the archived first-party About Us page
-(`web.archive.org/web/20120615081940/http://www.linkamedia.com/about.html`).
+## API Evangelist rating
 
-**Do not re-run the enrichment pipeline against this slug.**
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Link A Media: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/link-a-media/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
